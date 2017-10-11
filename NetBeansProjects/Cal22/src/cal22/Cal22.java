@@ -10,7 +10,10 @@ public class Cal22
     public int add (String s1 , String s2)
     {
         
-        return 0;
+        int d1 = Integer.parseInt(s1);
+         int d2 = Integer.parseInt(s2);
+       
+         return d1+d2;
     }
     
     
